@@ -1,0 +1,32 @@
+.tables,
+.tables tr th,
+.tables tr td {
+    height: 20px;
+    width:50px;
+    border:3px solid;
+    border-collapse:collapse;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 10px 6px;
+    text-align:center;
+}
+.tables tr th{
+    border: 2px solid black;
+    font-size: 20px;
+    background-color:#3838d7;
+    color:#f0f8ff;   
+}
+.tables tr:nth-child(odd){
+    background-color:#7c7ce8d4;
+    color:#f0f8ff;
+    
+}
+.tables tr td{
+    border: 2px solid black;
+}
+#full{
+    margin:0 auto;
+}
+.tables tr:hover{
+    background-color:#10efefc8;
+    color:#000000;
+}

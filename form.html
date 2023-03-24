@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form_practice</title>
+    <link rel="shortcut icon" href="images/mobile.webp" type="image/x-icon"/>
+</head>
+<body>
+    <h1>This is a demo form</h1>
+    <form action="congrats.html"  mathod="">
+        <fieldset>
+        <legend>This is part one</legend>
+        <div>
+            <label for="your_name">Full Name :</label>
+            <input autofocus type="text" id="your name" required placeholder="Your full name" name="full-name"/>
+        </div>
+        <div>
+            <label for="father_name">Father's Name :</label>
+            <input type="text" id="father name"required placeholder="Your father name" name="father-name"/>
+       </div>
+       <div>
+            <label for="mother_name">Mother's Name :</label>
+            <input type="text" id="mother name" required placeholder="Your mother name" name="mother-name" />
+       </div>
+       <div>
+           <label for="email">Email :</label> 
+            <input type="email" id="email" required placeholder="Your email address" name="email" />
+       </div>
+       <div>
+            <label for="mobile_no">Contact No :</label>
+            <input type="number" id="mobile no" required placeholder="Your contact no" name="mobile"/>
+       </div>
+       <div>
+        <label label="birth">Date of birth</label>
+        <input type="date" id="birth" required placeholder="your date of birth" name="dob"/>
+
+       </div>
+       <div>
+            <label for="age">Your Age :</label>
+            <input type="number" id="age" required placeholder="Your age" name="ages"/>
+       </div>
+       <div>
+            <label for="pass">Password :</label>
+            <input type="password" required placeholder="Enter your password" name="ages"/>
+       </div>
+    </fieldset>
+    <fieldset>
+        <legend>This is part two</legend>
+       <div>
+            <label for="image">Your Image :</label>
+            <input type="image" required placeholder="Your image" name="img"/>
+       </div>
+       <div>
+            <label for="file">Attached Files :</label>
+            <input type="file" id="file" palceholder="Your file" name="files"/>
+       </div>
+       <div>
+            <label for="gen">Gender :</label>
+            <input type="radio" id="gen" name="gender" value="male"/>Male
+            <input type="radio" id="gen" name="gender" value="female"/>Female
+       </div>
+       <div>
+            <label for="dts">Your dates :</label>
+           <label for="1">Sat :</label> 
+           <input type="checkbox" id="1" name="day []" value="sat" id="dts" checked/>
+           <label for="2">Sun :</label> 
+           <input type="checkbox" id="2"  name="day []" value="sun" />
+           <label for="3">Mon :</label> 
+           <input type="checkbox" id="3"  name="day []" value="mon" checked/> 
+           <label for="4">Tues :</label> 
+           <input type="checkbox" id="4"  name="day []" value="tues" />
+           <label for="5">Wed :</label> 
+           <input type="checkbox" id="5"   name="day []" value="wed" checked/>
+           <label for="6">Thurs :</label> 
+           <input type="checkbox" id="6"  name="day []" value="thurs"/>
+       </div>
+       <div>
+          <label for="cour">Select your course :</label>
+          <select id="cour">
+                <option vlaue="">Course</option>
+               <optgroup label="Digital Marketing Sector">
+                    <option value="seo">On page SEO</option>
+                    <option vlaue="off_seo">Off page SEO</option>
+                    <option value="email">Email marketing</option>
+                    <option value="google">Google adds</option>
+                    <option value="facebook">Facebool marketing</option>
+                    <option value="youtube">Youtube marketing</option>
+                    <option value="instra">Instragram marketin</option>
+                    <otion value="linkedin">Linkedin marketing</otion>
+                </optgroup>
+                <optgroup label="Graphics Design Sector">
+                    <option value="canva">Canva design</option>
+                    <option value="photoshop">Photoshop</option>
+                    <option value="ilstrator">Ilstrator</option>
+                </optgroup>
+                <optgroup label="Web Development Sector">
+                    <option value="fornt-end">Fornt-end develpment</option>
+                    <option value="back-end">Back-end development</option>
+                </optgroup>
+          </select>
+      </div>
+      <div>
+          <label for="browser">Choose your browser</label>
+          <input list="hi" id="browser" placeholder="Your browser"/>
+          <datalist id="hi">
+               <option value="Edge"></option>
+               <option value="Firefox"></option>
+               <option value="Chrome"></option>
+          </datalist>
+      </div>
+      <div>
+          <textarea placeholder="Write yourself"></textarea>
+      </div>
+    </fieldset>
+      <div>
+          <input type="submit" value="Submit"/>
+      </div>
+      <div>
+          <input type="reset"/>
+      </div>
+      
+    </form>
+</body>
+</html>
